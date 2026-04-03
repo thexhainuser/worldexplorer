@@ -206,3 +206,133 @@ button:hover {
   position: relative;
   z-index: 1;
 }
+.black-section-2 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.black-section-2 h2 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.black-section-2 p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 10px auto 30px auto;
+  max-width: 800px;
+  text-align: center;
+}
+.image-section-2 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* takes at least full viewport height */
+  
+  background-image: url('pic9.jpg'); /* your new image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-section-2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Fade from top and bottom */
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,1) 0%,
+    rgba(0,0,0,0.5) 50%, 
+    rgba(0,0,0,1) 100%
+  );
+
+  z-index: 0;
+}
+
+.image-section-2 h2,
+.image-section-2 p {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+.black-section-3 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.black-section-3 h2 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.black-section-3 p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 10px auto 30px auto;
+  max-width: 800px;
+  text-align: center;
+}
+.image-section-3 {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* takes at least full viewport height */
+  
+  background-image: url('pic2.jpg'); /* your new image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-section-3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  /* Fade from top and bottom */
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,1) 0%,
+    rgba(0,0,0,0.5) 50%, 
+    rgba(0,0,0,1) 100%
+  );
+
+  z-index: 0;
+}
+
+.image-section-3 h2,
+.image-section-3 p {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
