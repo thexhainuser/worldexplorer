@@ -207,7 +207,7 @@ button:hover {
  letter-spacing: 1px;
  z-index: 1;
 }
-.image-section :hover {
+.image-section h2:hover {
   
   transform: scale(1.02);
 }
