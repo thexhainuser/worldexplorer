@@ -1,1 +1,0 @@
-element.scrollIntoView({ behavior: "smooth" });
