@@ -36,8 +36,14 @@ html, body {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 100%; /* Verlauf nur unteres Bildende */
-  background: linear-gradient(to top, rgba(0,0,0,1), rgba(0, 0, 0, 0.301));
+  height: 100%; 
+  background: linear-gradient(
+    to top, to bottom,
+    rgba(0,0,0,1) 00%,
+    rgba(180, 180, 180, 0.5) 50%, 
+    rgba(0,0,0,1) 100%
+  );
+
   z-index: 0;
 }
 
@@ -200,7 +206,12 @@ button:hover {
  font-size: 30px;
  letter-spacing: 1px;
  z-index: 1;
- }
+}
+.image-section :hover {
+  
+  transform: scale(1.02);
+}
+ 
 .image-section p {
   font-size: 20px; /* Beispiel: anpassen wie gewünscht */
   position: relative;
@@ -270,6 +281,11 @@ button:hover {
   position: relative;
   z-index: 1;
   color: white;
+
+}.image-section-2 h2:hover  {
+  
+  transform: scale(1.02);
+ 
 }
 .black-section-3 {
   background-color: black;
@@ -336,3 +352,13 @@ button:hover {
   z-index: 1;
   color: white;
 }
+.image-section-3 :hover {
+  
+  transform: scale(1.02);
+}
+.article-section {
+  background: black;
+  padding: 80px 20px;
+  text-align: center;
+}
+
